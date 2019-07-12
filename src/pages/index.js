@@ -1,21 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <div>
+    <h1>Hola DrupalCamp CR</h1>
+    <p>
+      Drupal Camp Costa Rica es un evento de 2 días sobre la web, en el que
+      aprendemos sobre uno de los proyectos de código abierto más grandes:
+      Drupal. Este Camp es uno de los más grandes de América Latina y el más
+      constante de la región.
+    </p>
+  </div>
 )
 
 export default IndexPage
