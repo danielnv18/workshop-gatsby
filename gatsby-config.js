@@ -15,6 +15,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    // {
+    //   resolve: `gatsby-source-drupal`,
+    //   options: {
+    //     baseUrl: `http://dev-drupalcr-gatsby.pantheonsite.io/`,
+    //     apiBase: `jsonapi`,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

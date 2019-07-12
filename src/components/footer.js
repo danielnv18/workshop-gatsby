@@ -6,15 +6,15 @@ const Footer = () => (
       <form method="post" action="#">
         <div className="fields">
           <div className="field">
-            <label htmlFor="name">Name</label>
+            <label for="name">Name</label>
             <input type="text" name="name" id="name" />
           </div>
           <div className="field">
-            <label htmlFor="email">Email</label>
+            <label for="email">Email</label>
             <input type="text" name="email" id="email" />
           </div>
           <div className="field">
-            <label htmlFor="message">Message</label>
+            <label for="message">Message</label>
             <textarea name="message" id="message" rows="3"></textarea>
           </div>
         </div>
@@ -74,3 +74,5 @@ const Footer = () => (
     </section>
   </footer>
 )
+
+export default Footer
