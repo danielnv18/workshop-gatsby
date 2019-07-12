@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `DrupalCamp CR 2019`,
     description: `Este Camp es uno de los más grandes de América Latina y el más constante de la región.`,
-    author: `@gatsbyjs`,
+    author: `@drupalcr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
