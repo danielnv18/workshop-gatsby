@@ -15,13 +15,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-source-drupal`,
-    //   options: {
-    //     baseUrl: `http://dev-drupalcr-gatsby.pantheonsite.io/`,
-    //     apiBase: `jsonapi`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -34,6 +27,23 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // Drupal Sourve plugin.
+    // {
+    //   resolve: `gatsby-source-drupal`,
+    //   options: {
+    //     baseUrl: `http://dev-drupalcr-gatsby.pantheonsite.io/`,
+    //     apiBase: `jsonapi`,
+    //   },
+    // },
+    // Markdown source plugin.
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/markdown`,
+    //     name: `markdown`,
+    //   },
+    // },
+    // `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
