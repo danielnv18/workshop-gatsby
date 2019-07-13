@@ -1,13 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Navigation = () => (
   <nav id="nav">
     <ul className="links">
       <li className="active">
-        <a href="index.html">This is Massively</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="generic.html">Generic Page</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
         <a href="elements.html">Elements Reference</a>

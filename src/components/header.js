@@ -2,11 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header id="header">
-    <a href="index.html" class="logo">
+    <Link to="/" class="logo">
       Massively
-    </a>
+    </Link>
   </header>
 )
 
