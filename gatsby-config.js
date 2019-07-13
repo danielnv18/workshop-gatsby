@@ -28,14 +28,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // Drupal Sourve plugin.
-    // {
-    //   resolve: `gatsby-source-drupal`,
-    //   options: {
-    //     baseUrl: `http://dev-drupalcr-gatsby.pantheonsite.io/`,
-    //     apiBase: `jsonapi`,
-    //   },
-    // },
+    // Drupal Source plugin.
+    {
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: `http://dev-drupalcr-gatsby.pantheonsite.io/`,
+        apiBase: `jsonapi`,
+      },
+    },
     // Markdown source plugin.
     // {
     //   resolve: `gatsby-source-filesystem`,

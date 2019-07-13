@@ -11,6 +11,7 @@ const SiteHeader = () => {
       }
     }
   `)
+  
   return (
     <header id="header">
       <Link to="/" className="logo">

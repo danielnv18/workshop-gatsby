@@ -7,3 +7,7 @@
 <h1 align="center">
   Drupal Camp CR 2019 - Gatsby workshop
 </h1>
+
+daniel.noyola.dev@gmail.com
+d.noyola@paralleldevs.com
+https://github.com/danielnv18/workshop-gatsby
